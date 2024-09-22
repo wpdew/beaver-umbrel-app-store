@@ -8,7 +8,7 @@ description: >-
   
 repository: "https://github.com/username/motioneye-app"  # Укажи свой репозиторий
 icon: "https://i.imgur.com/nbqoMnp.png"  # Иконка приложения
-category: automation
+category: media
 
 releaseNotes: ""
 developer: "WpDews"
