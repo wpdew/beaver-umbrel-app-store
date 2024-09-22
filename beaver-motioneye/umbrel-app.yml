@@ -1,12 +1,12 @@
 manifestVersion: 1
 id: beaver-motioneye
 name: MotionEye
-version: "1.0.0"
+version: "1.0.1"
 description: >-
   motionEye is an online interface for the software motion, a video surveillance program with motion detection.
   It is designed to support safe cities with thousands of cameras, subscriber services, and self-hosted home use.
   
-repository: "https://github.com/username/motioneye-app"  # Укажи свой репозиторий
+repository: "https://github.com/buttonbeaver/beaver-umbrel-app-store"  # Укажи свой репозиторий
 icon: "https://i.imgur.com/nbqoMnp.png"  # Иконка приложения
 category: automation
 
@@ -18,6 +18,9 @@ gallery:
   - https://i.imgur.com/qRRmQmi.jpeg
   - https://i.imgur.com/MswgCZv.jpeg
     
+defaultUsername: "admin"
+defaultPassword: ""
+
 services:
   motioneye:
     ports:
