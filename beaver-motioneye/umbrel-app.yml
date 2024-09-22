@@ -20,12 +20,3 @@ gallery:
     
 defaultUsername: "admin"
 defaultPassword: ""
-
-services:
-  motioneye:
-    ports:
-      - 8083
-      - 8765
-    volumes:
-      - etc
-      - var_lib
