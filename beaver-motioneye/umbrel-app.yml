@@ -22,7 +22,7 @@ defaultUsername: "admin"
 defaultPassword: ""
 
 services:
-  motioneye:
+  beaver-motioneye:
     ports:
       - 8083
       - 8765
