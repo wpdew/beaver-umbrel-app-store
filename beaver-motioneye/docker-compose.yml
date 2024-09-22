@@ -4,8 +4,8 @@ services:
     image: ccrisan/motioneye:master-armhf
     init: true
     ports:
-      - "8083:8081"
-      - "8765:8765"
+      - "8089:8081"
+      - "8769:8765"
     environment:
       - TZ=Europe/Kiev
     restart: unless-stopped

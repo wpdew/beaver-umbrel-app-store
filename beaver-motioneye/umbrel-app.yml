@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: beaver-motioneye
 name: MotionEye
-version: "1.0.1"
+version: "1.0.2"
 description: >-
   motionEye is an online interface for the software motion, a video surveillance program with motion detection.
   It is designed to support safe cities with thousands of cameras, subscriber services, and self-hosted home use.
@@ -20,3 +20,12 @@ gallery:
     
 defaultUsername: "admin"
 defaultPassword: ""
+
+services:
+  motioneye:
+    ports:
+      - 8083
+      - 8765
+    volumes:
+      - etc
+      - var_lib
