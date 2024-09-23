@@ -1,0 +1,10 @@
+version: '3'
+services:
+  shiori:
+    image: nicholaswilde/shiori:latest
+    container_name: shiori
+    ports:
+      - "8613:8080"
+    volumes:
+      - ./shiori_data:/srv/shiori
+    restart: unless-stopped
