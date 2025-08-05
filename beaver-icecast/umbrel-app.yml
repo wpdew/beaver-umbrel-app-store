@@ -17,8 +17,8 @@ gallery:
   - ./icon.png
   - ./icon.png
   - ./icon.png
-
-defaultUsername: "shiori"
-defaultPassword: "gopher"
+port: 8100
 dependencies: []
 path: ""
+defaultUsername: "admin"
+defaultPassword: "admin123"
