@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: beaver-icecast
 name: Icecast
-version: "1.0.0"
+version: "1.0.1"
 description: >-
   Icecast is a streaming media server that supports a variety of formats. You can use it to host your own internet radio station or stream audio content to your users.
 
