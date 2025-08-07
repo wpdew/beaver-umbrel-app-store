@@ -1,12 +1,12 @@
 manifestVersion: 1
 id: beaver-icecast
 name: Icecast
-version: "1.0.2"
+version: "1.0.3"
 description: >-
   Icecast is a streaming media server that supports a variety of formats. You can use it to host your own internet radio station or stream audio content to your users.
 
 repository: "https://github.com/wpdew/wpdews-umbrell"  # Укажи свой репозиторий
-icon: "icon.png"  # Иконка приложения
+icon: "https://github.com/wpdew/beaver-umbrel-app-store/blob/master/beaver-icecast/icon.png"  # Иконка приложения
 category: automation
 
 releaseNotes:  >-
@@ -14,9 +14,7 @@ releaseNotes:  >-
 developer: "WpDews"
 website: https://wpdew.com/  
 gallery:
-  - ./icon.png
-  - ./icon.png
-  - ./icon.png
+  - https://github.com/wpdew/beaver-umbrel-app-store/blob/master/beaver-icecast/icecast_sk.png
 port: 8000
 dependencies: []
 path: ""
